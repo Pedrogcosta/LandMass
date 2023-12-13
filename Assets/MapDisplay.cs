@@ -3,6 +3,7 @@ using System.Collections;
 
 public class MapDisplay : MonoBehaviour
 {
+
     public Renderer textureRender;
     public MeshFilter meshFilter;
     public MeshRenderer meshRenderer;
@@ -18,4 +19,5 @@ public class MapDisplay : MonoBehaviour
         meshFilter.sharedMesh = meshData.CreateMesh();
         meshRenderer.sharedMaterial.mainTexture = texture;
     }
+
 }
